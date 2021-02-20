@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.login-form {
+  margin-top: 60px;
+  border-radius: 5px;
+  background: white;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 10px 1px grey;
+}
+h1 {
+  text-align: center;
+  font-size: 26px;
+  padding: 30px 0px 15px 0px;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #ce0f3d;
+}
+h3 {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+  padding-bottom: 10px;
+}
+h6 {
+  text-align: center;
+  padding-top: 10px;
+  color: gray;
+  font-size: 12px;
+}
+h6:hover {
+  cursor: pointer;
+}
+.btn {
+  width: 100%;
+  background-color: #ce0f3d;
+  color: white;
+  border: none;
+}
